@@ -10,12 +10,12 @@ variable "parameters" {
     {
       name = "demo1",
       value = "demo1",
-      type = "string"
+      type = "String"
     },
     {
       name = "demo2",
       value = "demo2",
-      type = "string"
+      type = "String"
     }
   ]
 }
