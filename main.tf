@@ -8,13 +8,13 @@ resource "aws_ssm_parameter" "roboshop_params" {
 variable "parameters" {
   default = [
     {
-      name = "demo1"
-      value = "demo1"
+      name = "demo1",
+      value = "demo1",
       type = "string"
-    }
+    },
     {
-      name = "demo2"
-      value = "demo2"
+      name = "demo2",
+      value = "demo2",
       type = "string"
     }
   ]
