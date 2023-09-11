@@ -33,27 +33,27 @@ variable "parameters" {
       type = "String"
     },
     {
-      name = "roboshop.dev.cart_redis_host",
+      name = "roboshop.dev.cart.redis_host",
       value = "redis-dev.iamadevopsengineer.tech",
       type = "String"
     },
     {
-      name = "roboshop.dev.cart_catalogue_host",
+      name = "roboshop.dev.cart.catalogue_host",
       value = "catalogue-dev.iamadevopsengineer.tech",
       type = "String"
     },
     {
-      name = "roboshop.dev.cart_catalogue_port",
+      name = "roboshop.dev.cart.catalogue_port",
       value = "8080",
       type = "String"
     },
     {
-      name = "roboshop.dev.Catalogue_mongo",
+      name = "roboshop.dev.Catalogue.mongo",
       value = "true",
       type = "String"
     },
     {
-      name = "roboshop.dev.Catalogue_mongo_url",
+      name = "roboshop.dev.Catalogue.mongo_url",
       value = "mongodb://mongodb-dev.iamadevopsengineer.tech:27017/catalogue",
       type = "String"
     },
