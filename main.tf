@@ -48,12 +48,12 @@ variable "parameters" {
       type = "String"
     },
     {
-      name = "roboshop.dev.Catalogue.mongo",
+      name = "roboshop.dev.catalogue.mongo",
       value = "true",
       type = "String"
     },
     {
-      name = "roboshop.dev.Catalogue.mongo_url",
+      name = "roboshop.dev.catalogue.mongo_url",
       value = "mongodb://mongodb-dev.iamadevopsengineer.tech:27017/catalogue",
       type = "String"
     },
