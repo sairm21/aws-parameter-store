@@ -31,6 +31,91 @@ variable "parameters" {
       name = "roboshop.dev.frontend.payment_url",
       value = "http://payment-dev.iamadevopsengineer.tech:8080/",
       type = "String"
+    },
+    {
+      name = "roboshop.dev.cart_redis_host",
+      value = "redis-dev.iamadevopsengineer.tech",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.cart_catalogue_host",
+      value = "catalogue-dev.iamadevopsengineer.tech",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.cart_catalogue_port",
+      value = "8080",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.Catalogue_mongo",
+      value = "true",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.Catalogue_mongo_url",
+      value = "mongodb://mongodb-dev.iamadevopsengineer.tech:27017/catalogue",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.payment.cart_host",
+      value = "cart-dev.iamadevopsengineer.tech",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.payment.cart_port",
+      value = "8080",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.payment.user_host",
+      value = "user-dev.iamadevopsengineer.tech",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.payment.user_port",
+      value = "8080",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.payment.amqp_host",
+      value = "rabbitmq-dev.iamadevopsengineer.tech",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.payment.amqp_user",
+      value = "roboshop",
+      type = "String"
+    },
+    { #passwords will be never part of git repos they will be creted manually through console
+      name = "roboshop.dev.payment.amqp_pass",
+      value = "roboshop123",
+      type = "SecureString"
+    },
+    {
+      name = "roboshop.dev.shipping.cart_endpoint",
+      value = "cart-dev.iamadevopsengineer.tech:8080",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.shipping.db_host",
+      value = "mysql-dev.iamadevopsengineer.tech",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.user.mongo",
+      value = "true",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.user.redis_host",
+      value = "redis-dev.iamadevopsengineer.tech",
+      type = "String"
+    },
+    {
+      name = "roboshop.dev.user.mongo_url",
+      value = "mongodb://mongodb-dev.iamadevopsengineer.tech:27017/users",
+      type = "String"
     }
   ]
 }
