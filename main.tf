@@ -116,6 +116,16 @@ variable "parameters" {
       name = "roboshop.dev.user.mongo_url",
       value = "mongodb://mongodb-dev.iamadevopsengineer.tech:27017/users",
       type = "String"
+    },
+    {
+      name = "roboshop.dev.rabbitmq.amqp_user",
+      value = "roboshop",
+      type = "String"
+    },
+    { #passwords will be never part of git repos they will be creted manually through console
+      name = "roboshop.dev.rabbitmq.amqp_pass",
+      value = "roboshop123",
+      type = "SecureString"
     }
   ]
 }
