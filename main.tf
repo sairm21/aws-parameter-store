@@ -3,6 +3,7 @@ resource "aws_ssm_parameter" "roboshop_params" {
   name  = var.parameters[count.index].name
   type  = var.parameters[count.index].type
   value = var.parameters[count.index].value
+  key_id = "arn:aws:kms:us-east-1:804838709963:key/7123afc2-b40f-4051-8098-22eef643474b"
 }
 
 variable "parameters" {
