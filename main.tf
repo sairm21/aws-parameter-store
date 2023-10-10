@@ -127,6 +127,7 @@ variable "parameters" {
       value = "roboshop123",
       type = "SecureString"
     },
+    {
     name = "roboshop.dev.mysql.username",
     value = "roboshop",
     type = "String"
