@@ -137,6 +137,16 @@ variable "parameters" {
     name = "roboshop.dev.mysql.password",
     value = "roboshop123",
     type = "SecureString"
+    },
+    {
+      name = "roboshop.dev.docdb.username",
+      value = "roboshop",
+      type = "String"
+    },
+    { #passwords will be never part of git repos they will be creted manually through console
+      name = "roboshop.dev.docdb.password",
+      value = "roboshop123",
+      type = "SecureString"
     }
   ]
 }
