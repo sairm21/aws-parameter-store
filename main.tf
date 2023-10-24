@@ -59,6 +59,11 @@ variable "parameters" {
       type = "SecureString"
     },
     {
+      name = "roboshop.dev.catalogue.docdb_endpoint",
+      value = "docdb-dev.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
+      type = "String"
+    },
+    {
       name = "roboshop.dev.payment.cart_host",
       value = "cart-dev.iamadevopsengineer.tech",
       type = "String"
