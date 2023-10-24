@@ -55,8 +55,8 @@ variable "parameters" {
     },
     {
       name = "roboshop.dev.catalogue.mongo_url",
-      value = "mongodb://mongodb-dev.iamadevopsengineer.tech:27017/catalogue",
-      type = "String"
+      value = "mongodb://roboshop:roboshop123@docdb-dev.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false",
+      type = "SecureString"
     },
     {
       name = "roboshop.dev.payment.cart_host",
