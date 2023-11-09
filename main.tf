@@ -60,7 +60,8 @@ variable "parameters" {
     },
     {
       name = "roboshop.dev.catalogue.docdb_endpoint",
-      value = "docdb-dev.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
+      #value = "docdb-dev.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
+      value = "mongodb-dev-docdb-cluster.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
       type = "String"
     },
     {
