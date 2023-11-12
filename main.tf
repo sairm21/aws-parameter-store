@@ -129,14 +129,15 @@ variable "parameters" {
     },
     {
       name = "roboshop.dev.user.redis_host",
-      value = "redis-dev.iamadevopsengineer.tech",
+      #value = "redis-dev.iamadevopsengineer.tech",
+      value = "elasticache-dev-redis-cluster.oy3te9.clustercfg.use1.cache.amazonaws.com"
       type = "String"
     },
-    {
+/*    {
       name = "roboshop.dev.user.mongo_url",
       value = "mongodb://mongodb-dev.iamadevopsengineer.tech:27017/users",
       type = "String"
-    },
+    }, */
     {
       name = "roboshop.dev.rabbitmq.amqp_user",
       value = "roboshop",
