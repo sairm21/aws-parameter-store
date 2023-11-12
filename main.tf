@@ -66,6 +66,18 @@ variable "parameters" {
       type = "String"
     },
     {
+      name = "roboshop.dev.user.mongo_url",
+      #value = "mongodb://roboshop:roboshop123@docdb-dev.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false",
+      value = "mongodb://roboshop:roboshop123@mongodb-dev-docdb-cluster.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false",
+      type = "SecureString"
+    },
+    {
+      name = "roboshop.dev.user.docdb_endpoint",
+      #value = "docdb-dev.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
+      value = "mongodb-dev-docdb-cluster.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
+      type = "String"
+    },
+    {
       name = "roboshop.dev.payment.cart_host",
       value = "cart-dev.iamadevopsengineer.tech",
       type = "String"
