@@ -35,7 +35,8 @@ variable "parameters" {
     },
     {
       name = "roboshop.dev.cart.redis_host",
-      value = "redis-dev.iamadevopsengineer.tech",
+      #value = "redis-dev.iamadevopsengineer.tech",
+      value = "elasticache-dev-redis-cluster.oy3te9.clustercfg.use1.cache.amazonaws.com"
       type = "String"
     },
     {
@@ -45,7 +46,7 @@ variable "parameters" {
     },
     {
       name = "roboshop.dev.cart.catalogue_port",
-      value = "8080",
+      value = "80",
       type = "String"
     },
     {
