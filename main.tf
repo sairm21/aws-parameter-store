@@ -85,7 +85,7 @@ variable "parameters" {
     },
     {
       name = "roboshop.dev.payment.cart_port",
-      value = "8080",
+      value = "80",
       type = "String"
     },
     {
@@ -95,7 +95,7 @@ variable "parameters" {
     },
     {
       name = "roboshop.dev.payment.user_port",
-      value = "8080",
+      value = "80",
       type = "String"
     },
     {
@@ -115,12 +115,12 @@ variable "parameters" {
     },
     {
       name = "roboshop.dev.shipping.cart_endpoint",
-      value = "cart-dev.iamadevopsengineer.tech:8080",
+      value = "cart-dev.iamadevopsengineer.tech:80",
       type = "String"
     },
     {
       name = "roboshop.dev.shipping.db_host",
-      value = "mysql-dev.iamadevopsengineer.tech",
+      value = "mysql-dev-shipping-cluster.cluster-c4cylamu5ttb.us-east-1.rds.amazonaws.com",
       type = "String"
     },
     {
