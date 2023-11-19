@@ -10,33 +10,33 @@ variable "parameters" {
   default = [
     {
       name = "roboshop.dev.frontend.catalogue_url",
-      value = "https://catalogue-dev.iamadevopsengineer.tech/",
+      value = "http://catalogue-dev.iamadevopsengineer.tech/",
       type = "String"
     },
     {
       name = "roboshop.dev.frontend.user_url",
-      value = "https://user-dev.iamadevopsengineer.tech/",
+      value = "http://user-dev.iamadevopsengineer.tech/",
       type = "String"
     },
     {
       name = "roboshop.dev.frontend.cart_url",
-      value = "https://cart-dev.iamadevopsengineer.tech/",
+      value = "http://cart-dev.iamadevopsengineer.tech/",
       type = "String"
     },
     {
       name = "roboshop.dev.frontend.shipping_url",
-      value = "https://shipping-dev.iamadevopsengineer.tech/",
+      value = "http://shipping-dev.iamadevopsengineer.tech/",
       type = "String"
     },
     {
       name = "roboshop.dev.frontend.payment_url",
-      value = "https://payment-dev.iamadevopsengineer.tech/",
+      value = "http://payment-dev.iamadevopsengineer.tech/",
       type = "String"
     },
     {
       name = "roboshop.dev.cart.redis_host",
       #value = "redis-dev.iamadevopsengineer.tech",
-      value = "elasticache-dev-redis-cluster.oy3te9.clustercfg.use1.cache.amazonaws.com"
+      value = "elasticache-dev-redis-cluster.oy3te9.clustercfg.use1.cache.amazonaws.com",
       type = "String"
     },
     {
@@ -131,7 +131,7 @@ variable "parameters" {
     {
       name = "roboshop.dev.user.redis_host",
       #value = "redis-dev.iamadevopsengineer.tech",
-      value = "elasticache-dev-redis-cluster.oy3te9.clustercfg.use1.cache.amazonaws.com"
+      value = "elasticache-dev-redis-cluster.oy3te9.clustercfg.use1.cache.amazonaws.com",
       type = "String"
     },
 /*    {
