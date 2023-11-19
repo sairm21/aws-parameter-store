@@ -159,6 +159,7 @@ variable "parameters" {
     value = "roboshop123",
     type = "SecureString"
     },
+    {
     name = "roboshop.dev.mysql.endpoint",
     value = "mysql-dev-shipping-cluster.cluster-c4cylamu5ttb.us-east-1.rds.amazonaws.com",
     type = "String"
