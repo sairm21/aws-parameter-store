@@ -290,7 +290,7 @@ variable "parameters" {
     },
     {
       name = "roboshop.prod.shipping.db_host",
-      value = "mysql-dev-shipping-cluster.cluster-c4cylamu5ttb.us-east-1.rds.amazonaws.com",
+      value = "mysql-prod-shipping-cluster.cluster-c4cylamu5ttb.us-east-1.rds.amazonaws.com",
       type = "String"
     },
     {
@@ -331,7 +331,7 @@ variable "parameters" {
     },
     {
       name = "roboshop.prod.mysql.endpoint",
-      value = "mysql-dev-shipping-cluster.cluster-c4cylamu5ttb.us-east-1.rds.amazonaws.com",
+      value = "mysql-prod-shipping-cluster.cluster-c4cylamu5ttb.us-east-1.rds.amazonaws.com",
       type = "String"
     },
     {
