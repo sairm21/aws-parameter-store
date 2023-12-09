@@ -206,7 +206,7 @@ variable "parameters" {
     {
       name = "roboshop.prod.cart.redis_host",
       #value = "redis-prod.iamadevopsengineer.tech",
-      value = "elasticache-dev-redis-cluster.oy3te9.clustercfg.use1.cache.amazonaws.com",
+      value = "elasticache-prod-redis-cluster.oy3te9.clustercfg.use1.cache.amazonaws.com",
       type = "String"
     },
     {
@@ -301,7 +301,7 @@ variable "parameters" {
     {
       name = "roboshop.prod.user.redis_host",
       #value = "redis-prod.iamadevopsengineer.tech",
-      value = "elasticache-dev-redis-cluster.oy3te9.clustercfg.use1.cache.amazonaws.com",
+      value = "elasticache-prod-redis-cluster.oy3te9.clustercfg.use1.cache.amazonaws.com",
       type = "String"
     },
     /*    {
