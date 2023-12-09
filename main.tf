@@ -173,7 +173,7 @@ variable "parameters" {
       name = "roboshop.dev.docdb.password",
       value = "roboshop123",
       type = "SecureString"
-    }
+    },
 
 
     # Prod parameters
