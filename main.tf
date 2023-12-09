@@ -227,25 +227,25 @@ variable "parameters" {
     {
       name = "roboshop.prod.catalogue.mongo_url",
       #value = "mongodb://roboshop:roboshop123@docdb-prod.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false",
-      value = "mongodb://roboshop:roboshop123@mongodb-dev-docdb-cluster.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false",
+      value = "mongodb://roboshop:roboshop123@mongodb-prod-docdb-cluster.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false",
       type = "SecureString"
     },
     {
       name = "roboshop.prod.catalogue.docdb_endpoint",
       #value = "docdb-prod.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
-      value = "mongodb-dev-docdb-cluster.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
+      value = "mongodb-prod-docdb-cluster.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
       type = "String"
     },
     {
       name = "roboshop.prod.user.mongo_url",
       #value = "mongodb://roboshop:roboshop123@docdb-prod.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false",
-      value = "mongodb://roboshop:roboshop123@mongodb-dev-docdb-cluster.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false",
+      value = "mongodb://roboshop:roboshop123@mongodb-prod-docdb-cluster.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false",
       type = "SecureString"
     },
     {
       name = "roboshop.prod.user.docdb_endpoint",
       #value = "docdb-prod.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
-      value = "mongodb-dev-docdb-cluster.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
+      value = "mongodb-prod-docdb-cluster.cluster-c4cylamu5ttb.us-east-1.docdb.amazonaws.com",
       type = "String"
     },
     {
