@@ -343,6 +343,16 @@ variable "parameters" {
       name = "roboshop.prod.docdb.password",
       value = "roboshop123",
       type = "SecureString"
+    },
+    { #nexus username
+      name = "roboshop.nexus.username",
+      value = "admin",
+      type = "String"
+    },
+    { #nexus password
+      name = "roboshop.nexus.password",
+      value = "S@ir&m1221",
+      type = "SecureString"
     }
   ]
 }
