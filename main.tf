@@ -351,7 +351,7 @@ variable "parameters" {
     },
     { #nexus password
       name = "roboshop.nexus.password",
-      value = "S@ir&m1221",
+      value = "'S@ir&m1221'",
       type = "SecureString"
     }
   ]
